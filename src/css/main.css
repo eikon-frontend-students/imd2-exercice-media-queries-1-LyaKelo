@@ -16,3 +16,111 @@ img,
 video {
   display: block;
 }
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.description-title {
+text-align: center;
+font-family: "Hammersmith One";
+font-size: 20px;
+font-weight: 400;
+
+margin-bottom: 20px;
+}
+
+.description-content {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+
+  margin-bottom: 20px;
+}
+
+.logos {
+  display: flex;
+ padding: 0px 59px;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+
+ margin-bottom: 20px
+}
+
+.news-title {
+ text-align: center;
+ font-family: Inter;
+ font-size: 10px;
+ font-weight: 700;
+ text-transform: uppercase;
+
+ margin-bottom: 5px;
+}
+
+.download-title {
+ text-align: center;
+ font-family: "Hammersmith One";
+ font-size: 20px;
+ font-weight: 400;
+
+ margin-bottom: 5px;
+}
+
+.download-content {
+ text-align: center;
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: 400;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .description-title {
+    font-size: 28px;}
+
+  .logos {
+    justify-content: space-between;
+  }
+
+  .download-title {
+    font-size: 28px
+  }    
+}
+
+@media (min-width: 992px) {
+  .description-title {
+    text-align: start;
+    font-size: 36px;
+  }
+
+  .description-content {
+    text-align: start;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .logos {
+    justify-content: left;
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 100px }
+
+  .download-title {
+    font-size: 36px
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+  }
